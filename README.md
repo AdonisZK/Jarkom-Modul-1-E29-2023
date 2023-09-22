@@ -10,17 +10,14 @@ Laporan resmi pengerjaan soal praktikum Jarkom Modul 1 Kelompok E29 berupa dokum
 
 ### No 1
 **User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.** <br />
-a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
-Your answer: 258040667
-Correct answer!
-b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut?
-Your answer: 1044861039
-Correct answer!
-c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
-Your answer: 1044861039
-Correct answer!
-d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
-Your answer: 258040696
+a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut? <br />
+answer: 258040667 <br />
+b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? <br />
+answer: 1044861039 <br />
+c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut? <br />
+answer: 1044861039 <br />
+d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut? <br />
+answer: 258040696 <br />
 
 **Penyelesaian**
 - Melakukan filter Protocol menjadi FTP, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. 
