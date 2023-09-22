@@ -19,24 +19,35 @@ answer: 1044861039 <br />
 d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut? <br />
 answer: 258040696 <br />
 
+![1 5](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/edbbeb05-c0db-4355-ada4-cc3ab05fd43f) <br />
+
 **Penyelesaian**
 - Melakukan filter ftp, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. <br />  
 ![1 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/b02b6103-41a5-414e-9e59-76e8ac95d39f)
-
+<br />
 - Pada bagian Transmission Protocol Control, terdapat nilai sequence number (raw) dan acknowledge number (raw) dari aktivitas tersebut. <br />
 ![1 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/e779fd26-7ab8-4146-9f13-a6c858887b5f)
-
+<br />
 - Untuk melihat nilai sequence number (raw) dan acknowledge number (raw) yang menunjukkan response dari aktivitas tersebut, melakukan TCP Stream. <br />
 ![1 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/dacbf881-6f35-4bcc-8895-316a6f9d41de)
-
+<br />
 - Lalu, merujuk pada command setelah STOR. <br />
 ![1 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/d94587c5-e86d-4b3f-a75b-03a98bbf5af6)
 
 ### No 2
 **Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!**
+answer: gunicorn <br />
+
+![2 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/4d7ff256-5312-47a1-b0ca-92e15cfb59b6)
+
 - Melakukan filter ip.addr == 10.21.78.111. <br />
+![2 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/22ba8796-1922-4ea9-bc21-818cce279cf1)
+
 - Kemudian, pilih salah satu paket untuk dilakukan TCP Stream. <br />
+![2 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/a31f52c2-8dd3-4e28-b9cf-46a19dbcc893)
+
 - Akan tampak server yang digunakan adalah gunicorn. <br />
+![2 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/ef85a7aa-950b-4350-9e06-b7637bed846c)
 ### No 3
 ### No 4
 ### No 5
