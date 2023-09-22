@@ -91,6 +91,20 @@ answer: 0x18e5
 ![4 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/80a30b02-041f-4346-99bc-3eba113a7289)
 
 ### No 5
+**Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.**
++ a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
+answer: 60
++ b. Port berapakah pada server yang digunakan untuk service SMTP?
+answer: 25
++ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+answer: 74.53.140.153
+
+**Penyelesaian**
+- Melakukan filter smtp dan mencari paket yang mengandung password agar dapat membuka file zip.
+- Lalu, decode password menggunakan base64 converter.
+- Kemudian, buka file zip untuk mendapatkan instance soal.
+- Dengan begitu, soal yang ada dapat dikerjakan. Jumlah paketnya 60, port pada server yang digunakan untuk service SMTP adalah 25, dan public IP dari semua alamat IP yang tercapture adalah 74.53.140.153.
+
 ### No 6
 **Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.** <br />
 Kode Rahasia : SUBSTITUSI <br />
