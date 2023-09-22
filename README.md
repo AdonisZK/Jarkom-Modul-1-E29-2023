@@ -117,7 +117,7 @@ answer: 74.53.140.153
 
 ![5 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/616394d6-65b9-4605-b449-8f147b7cd113)
 
-![5 5](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/9ba95af0-a830-4a4f-a2e7-4dafe5f9c348)
+![5 5](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/e0955e11-9e82-48aa-8b8a-08d15770cb29)
 
 ### No 6
 **Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.** <br />
