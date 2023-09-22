@@ -92,12 +92,12 @@ answer: 0x18e5
 
 ### No 5
 **Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.**
-+ a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
-answer: 60
-+ b. Port berapakah pada server yang digunakan untuk service SMTP?
-answer: 25
-+ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
-answer: 74.53.140.153
++ a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut? <br />
+answer: 60 <br />
++ b. Port berapakah pada server yang digunakan untuk service SMTP? <br />
+answer: 25 <br />
++ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP? <br />
+answer: 74.53.140.153 <br />
 
 ![5 6](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/59a34054-b906-4f6a-9f4b-572546126a0e)
 
