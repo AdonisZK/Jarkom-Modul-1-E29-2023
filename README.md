@@ -20,9 +20,8 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 answer: 258040696 <br />
 
 **Penyelesaian**
-- Melakukan filter Protocol menjadi FTP, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. 
+- Melakukan filter Protocol menjadi FTP, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. <br />
 ![1 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/b02b6103-41a5-414e-9e59-76e8ac95d39f)
-
 - Pada bagian Transmission Protocol Control, terdapat nilai sequence number (raw) dan acknowledge number (raw) dari aktivitas tersebut.
 - Untuk melihat nilai sequence number (raw) dan acknowledge number (raw) yang menunjukkan response dari aktivitas tersebut, melakukan TCP Stream.
 - Lalu, merujuk pada command setelah STOR.
