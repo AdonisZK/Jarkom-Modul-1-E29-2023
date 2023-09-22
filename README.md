@@ -1,6 +1,6 @@
 # Jarkom-Modul-1-E29-2023
 
-Laporan resmi pengerjaan soal praktikum Jarkom Modul 1 Kelompok E29.
+Laporan resmi pengerjaan soal praktikum Jarkom Modul 1 Kelompok E29 berupa dokumentasi dan screenshot output, cara pengerjaan, serta kendala yang dialami.
 
 # Anggota Kelompok
 | Nama | NRP |
