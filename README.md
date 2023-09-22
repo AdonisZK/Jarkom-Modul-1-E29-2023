@@ -67,12 +67,15 @@ answer: UDP <br />
 **Penyelesaian**
 - Melakukan filter ip.addr == 239.255.255.250.
 
-  
+![3 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/692ff951-896a-4ad6-b3f5-5f311a93fa5c)
+
 - Kemudian mencari paket dengan Dst port: 3702 dan menghitung jumlahnya yaitu 21 paket.
 
-  
+![3 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/748f143b-442a-4cff-a1f3-0ac43a147148)
+
 - Protokol layer transport yang digunakan adalah UDP.
 
+![3 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/c128d096-df23-472b-a2f4-af2b521d0899)
   
 
 ### No 4
