@@ -9,7 +9,7 @@ Laporan resmi pengerjaan soal praktikum Jarkom Modul 1 Kelompok E29 berupa dokum
 | Sony Hermawan | 5025211226 |
 
 ### No 1
-**User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.**
+**User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.** <br />
 a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
 Your answer: 258040667
 Correct answer!
