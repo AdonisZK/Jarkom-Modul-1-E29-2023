@@ -20,7 +20,7 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 answer: 258040696 <br />
 
 **Penyelesaian**
-- Melakukan filter Protocol menjadi FTP, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. <br />  
+- Melakukan filter ftp, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. <br />  
 ![1 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/b02b6103-41a5-414e-9e59-76e8ac95d39f)
 
 - Pada bagian Transmission Protocol Control, terdapat nilai sequence number (raw) dan acknowledge number (raw) dari aktivitas tersebut. <br />
@@ -33,6 +33,10 @@ answer: 258040696 <br />
 ![1 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/d94587c5-e86d-4b3f-a75b-03a98bbf5af6)
 
 ### No 2
+**Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!**
+- Melakukan filter ip.addr == 10.21.78.111. <br />
+- Kemudian, pilih salah satu paket untuk dilakukan TCP Stream. <br />
+- Akan tampak server yang digunakan adalah gunicorn. <br />
 ### No 3
 ### No 4
 ### No 5
