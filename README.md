@@ -42,6 +42,7 @@ answer: 258040696 <br />
 **Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!** <br />
 answer: gunicorn <br />
 
+**Penyelesaian**
 ![2 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/8a078b41-9f9d-4f26-aac0-94919cbef183)
 
 - Melakukan filter ip.addr == 10.21.78.111.
@@ -55,7 +56,25 @@ answer: gunicorn <br />
 - Akan tampak server yang digunakan adalah gunicorn.
   
 ![2 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/ef85a7aa-950b-4350-9e06-b7637bed846c)
+
 ### No 3
+**Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:**
++ a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? <br />
+answer: 21 <br />
++ b. Protokol layer transport apa yang digunakan? <br />
+answer: UDP <br />
+
+**Penyelesaian**
+- Melakukan filter ip.addr == 239.255.255.250.
+
+  
+- Kemudian mencari paket dengan Dst port: 3702 dan menghitung jumlahnya yaitu 21 paket.
+
+  
+- Protokol layer transport yang digunakan adalah UDP.
+
+  
+
 ### No 4
 ### No 5
 ### No 6
@@ -63,6 +82,7 @@ answer: gunicorn <br />
 Kode Rahasia : SUBSTITUSI <br />
 answer: JDRNJA <br />
 
+**Penyelesaian**
 ![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/23a03e41-b7f8-4cfb-b455-ca560b896cd0)
 
 Jika dilihat dari IP source maka didapatkan 104.18.14.101. Jika dirubah menjadi alphabet seperti pada soal a1 e5 u21 maka 10(J) 4(D) 18(R) 14(N) 10(J) 1(A) <br />
