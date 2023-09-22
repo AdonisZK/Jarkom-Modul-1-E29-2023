@@ -144,5 +144,5 @@ Banyak variasi yang dapat dilakukan untuk mengfilter seperti jawaban (contoh: ip
 **Penyelesaian**  <br />
 Dengan melakukan filter telnet pada packet 236 maka akan terlihat huruf per huruf untuk username dan password pada packet terakhir 262 atau bisa melakukan follow tcp stream
 Filter: telnet <br />
-[](https://lh5.googleusercontent.com/zdJODhF-AKmz75X1MROZU1WBXMThSJUAf9qyPsHH8ttm6W-jz4jG2HZyM99EtQCoRTMzo0Hjt5n12FQ87Z-TyGBWm5OJEYP7D03StVN3yC7deiRO8zqIpR3n-m5ar62wNteDMoehwbjcprJbN15z1C0)
-
+![](https://lh5.googleusercontent.com/zdJODhF-AKmz75X1MROZU1WBXMThSJUAf9qyPsHH8ttm6W-jz4jG2HZyM99EtQCoRTMzo0Hjt5n12FQ87Z-TyGBWm5OJEYP7D03StVN3yC7deiRO8zqIpR3n-m5ar62wNteDMoehwbjcprJbN15z1C0)
+![](https://lh3.googleusercontent.com/JZjnrj63eUFtAWWbuYAhGmSfIQAmbzu0RkE_oCzr6ZIf0DH34CmPQ-eH8r4iP4-ZscBnv_xl9svRT4LPbAvyl-AHWbu8hqbRWXv0RZhBmkEHgV_FKuDudFCuJwM8ZNjh9CgsdVaoShvJzMVDyT2o5gg)
