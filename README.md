@@ -124,7 +124,7 @@ answer: 74.53.140.153 <br />
 Kode Rahasia : SUBSTITUSI <br />
 answer: JDRNJA <br />
 
-**Penyelesaian**
+**Penyelesaian** <br />
 Jika dilihat dari soal SOURCE ADDRESS 7812 maka kita melihat pada packet 7812
 
 ![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/23a03e41-b7f8-4cfb-b455-ca560b896cd0)
@@ -150,7 +150,7 @@ filter:  ip.addr == 184.87.193.88
 **Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)**  <br />
 answer: tcp.port == 80 || udp.port == 80
 
-**Penyelesaian**  
+**Penyelesaian**  <br />
 Mengecek port melalui 2 jenis protocol yaitu tcp dan udp
 
 ![](https://lh6.googleusercontent.com/-tfUOH6vfAtgQj13UUP5aTflWd4KMREWiRAqWlOBgc698pMb0ttWcnd_Vj1y8aQ6vsxkwIgJHAXyh1Gi8YOgO4xjHFufxaldNlKc7-EUC8zR6gwyx5rp111TeH_BuftnOr1PLIy5shlqHpK0NAuGrqw)
@@ -162,7 +162,7 @@ Ref: https://osqa-ask.wireshark.org/questions/50586/capture-tcp-and-udp-packets-
 **Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!** <br />
 answer: ip.src == 10.51.40.1 && ip.dst != 10.39.55.34 
 
-**Penyelesaian** 
+**Penyelesaian** <br />
 Melakukan filter dengan ip.src == (berasal) dan ip.dst != (tidak menuju)
 
 ![image](https://lh4.googleusercontent.com/Zq3AzXT32zd-Vu9pa0VCHUZ6HFG36cvTdlFyWZSdW1bNmoBtbeJMVgnRSdKlQ1KSVgEKTmEerkV5bjU2AEudpxiNP5usSQvJbO425FcZEF5veEvlGsu3TrlmyCYYIqyzscZQ2vDBMlSq2W6pV7FZNt4)
@@ -176,7 +176,7 @@ Banyak variasi yang dapat dilakukan untuk mengfilter seperti jawaban (contoh: ip
 **Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet**  <br />
 answer: dhafin:kesayangannyak0k0
 
-**Penyelesaian**
+**Penyelesaian** <br />
 Dengan melakukan filter telnet pada packet 236 maka akan terlihat huruf per huruf untuk username dan password pada packet terakhir 262 atau bisa melakukan follow tcp stream
 Filter: telnet
 
