@@ -103,14 +103,14 @@ Jika dilihat dari soal SOURCE ADDRESS 7812 maka kita melihat pada packet 7812
 
 Jika dilihat dari IP source maka didapatkan 104.18.14.101. Jika dirubah menjadi alphabet seperti pada soal a1 e5 u21 maka 10(J) 4(D) 18(R) 14(N) 10(J) 1(A) <br />
 
-**Kendala**  <br />
+**Kendala**  
 Soal sedikit membingungkan membuat solver mengira bahwa answernya adalah SUBSTIUSI yang diubah menjadi numeric <br />
 
 ### No 7
 **Berapa jumlah packet yang menuju IP 184.87.193.88?** <br />
 answer: 6 <br />
 
-**Penyelesaian**  <br />
+**Penyelesaian**  
 Melakukan filter ip.addr 184.87.193.88 lalu menghitung packet yang memiliki destination 184.87.193.88
 Menghitung packet yang menuju IP 184.87.193.88 ada 6 
 
@@ -119,10 +119,10 @@ Menghitung packet yang menuju IP 184.87.193.88 ada 6
 filter:  ip.addr == 184.87.193.88 
 
 ### No 8
-**Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)**
-#### answer: tcp.port == 80 || udp.port == 80  <br />
+**Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)**  <br />
+answer: tcp.port == 80 || udp.port == 80
 
-**Penyelesaian**  <br />
+**Penyelesaian**  
 Mengecek port melalui 2 jenis protocol yaitu tcp dan udp
 
 ![](https://lh6.googleusercontent.com/-tfUOH6vfAtgQj13UUP5aTflWd4KMREWiRAqWlOBgc698pMb0ttWcnd_Vj1y8aQ6vsxkwIgJHAXyh1Gi8YOgO4xjHFufxaldNlKc7-EUC8zR6gwyx5rp111TeH_BuftnOr1PLIy5shlqHpK0NAuGrqw)
@@ -131,24 +131,24 @@ Filter dan answer sama
 Ref: https://osqa-ask.wireshark.org/questions/50586/capture-tcp-and-udp-packets-on-port-80/  <br />
 
 ### No 9
-**Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!**
-answer: ip.src == 10.51.40.1 && ip.dst != 10.39.55.34  <br />
+**Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!** <br />
+answer: ip.src == 10.51.40.1 && ip.dst != 10.39.55.34 
 
-**Penyelesaian**  <br />
+**Penyelesaian** 
 Melakukan filter dengan ip.src == (berasal) dan ip.dst != (tidak menuju)
 
 ![image](https://lh4.googleusercontent.com/Zq3AzXT32zd-Vu9pa0VCHUZ6HFG36cvTdlFyWZSdW1bNmoBtbeJMVgnRSdKlQ1KSVgEKTmEerkV5bjU2AEudpxiNP5usSQvJbO425FcZEF5veEvlGsu3TrlmyCYYIqyzscZQ2vDBMlSq2W6pV7FZNt4)
 
 Filter dan answer sama
 
-**Kendala**  <br />
+**Kendala** 
 Banyak variasi yang dapat dilakukan untuk mengfilter seperti jawaban (contoh: ip.src == 10.51.40.1 and ip.dst != 10.39.55.34, ip.src eq 10.51.40.1 and !ip.dst == 10.39.55.34) dan pada saat awal praktikum jawaban tidak bisa walaupun sudah benar.
 
 ### No 10
 **Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet**  <br />
 answer: dhafin:kesayangannyak0k0
 
-**Penyelesaian**  <br />
+**Penyelesaian**
 Dengan melakukan filter telnet pada packet 236 maka akan terlihat huruf per huruf untuk username dan password pada packet terakhir 262 atau bisa melakukan follow tcp stream
 Filter: telnet
 
