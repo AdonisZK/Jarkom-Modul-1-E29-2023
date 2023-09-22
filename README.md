@@ -42,9 +42,9 @@ answer: 258040696 <br />
 **Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!** <br />
 answer: gunicorn <br />
 
-**Penyelesaian**
 ![2 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/8a078b41-9f9d-4f26-aac0-94919cbef183)
 
+**Penyelesaian**
 - Melakukan filter ip.addr == 10.21.78.111.
   
 ![2 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/22ba8796-1922-4ea9-bc21-818cce279cf1)
@@ -63,6 +63,8 @@ answer: gunicorn <br />
 answer: 21 <br />
 + b. Protokol layer transport apa yang digunakan? <br />
 answer: UDP <br />
+
+![3 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/1441e0cf-2fb2-4c1e-a64d-5e013e4e658e)
 
 **Penyelesaian**
 - Melakukan filter ip.addr == 239.255.255.250.
