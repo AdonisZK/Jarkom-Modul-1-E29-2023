@@ -22,17 +22,17 @@ answer: 258040696 <br />
 ![1 5](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/edbbeb05-c0db-4355-ada4-cc3ab05fd43f) <br />
 
 **Penyelesaian**
-- Melakukan filter ftp, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. <br />  
-![1 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/b02b6103-41a5-414e-9e59-76e8ac95d39f)
+- Melakukan filter ftp, kemudian mencari command STOR karena aktivitas yang dilakukan adalah mengunggah file. <br />
+  ![1 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/b02b6103-41a5-414e-9e59-76e8ac95d39f)
 
 - Pada bagian Transmission Protocol Control, terdapat nilai sequence number (raw) dan acknowledge number (raw) dari aktivitas tersebut. <br />
-![1 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/e779fd26-7ab8-4146-9f13-a6c858887b5f)
+  ![1 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/e779fd26-7ab8-4146-9f13-a6c858887b5f)
 
 - Untuk melihat nilai sequence number (raw) dan acknowledge number (raw) yang menunjukkan response dari aktivitas tersebut, melakukan TCP Stream. <br />
-![1 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/dacbf881-6f35-4bcc-8895-316a6f9d41de)
+  ![1 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/dacbf881-6f35-4bcc-8895-316a6f9d41de)
 
 - Lalu, merujuk pada command setelah STOR. <br />
-![1 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/d94587c5-e86d-4b3f-a75b-03a98bbf5af6)
+  ![1 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/d94587c5-e86d-4b3f-a75b-03a98bbf5af6)
 
 ### No 2
 **Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!**
