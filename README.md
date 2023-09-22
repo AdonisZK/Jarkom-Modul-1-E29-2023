@@ -9,4 +9,12 @@ Laporan resmi pengerjaan soal praktikum Jarkom Modul 1 Kelompok E29.
 | Sony Hermawan | 5025211226 |
 
 # No 1
-![alt text](1.1.png)
+# No 2
+# No 3
+# No 4
+# No 5
+# No 6
+# No 7
+# No 8
+# No 9
+# No 10
