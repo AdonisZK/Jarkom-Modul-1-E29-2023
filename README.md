@@ -80,7 +80,7 @@ answer: UDP <br />
 ![3 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/c128d096-df23-472b-a2f4-af2b521d0899)
   
 ### No 4
-**Berapa nilai checksum yang didapat dari header pada paket nomor 130?**
+**Berapa nilai checksum yang didapat dari header pada paket nomor 130?** <br />
 answer: 0x18e5
 
 ![4 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/1262ec2d-399e-405c-aa9f-8716bfff15d2)
