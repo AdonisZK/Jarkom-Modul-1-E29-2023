@@ -39,10 +39,10 @@ answer: 258040696 <br />
   ![1 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/d94587c5-e86d-4b3f-a75b-03a98bbf5af6)
 
 ### No 2
-**Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!**
+**Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!** <br />
 answer: gunicorn <br />
 
-![2 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/4d7ff256-5312-47a1-b0ca-92e15cfb59b6)
+![2 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/8a078b41-9f9d-4f26-aac0-94919cbef183)
 
 - Melakukan filter ip.addr == 10.21.78.111.
   
@@ -59,13 +59,13 @@ answer: gunicorn <br />
 ### No 4
 ### No 5
 ### No 6
-Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut. <br />
-Kode Rahasia : SUBSTITUSI 
+**Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.** <br />
+Kode Rahasia : SUBSTITUSI <br />
+answer: JDRNJA <br />
 
 ![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/23a03e41-b7f8-4cfb-b455-ca560b896cd0)
 
 Jika dilihat dari IP source maka didapatkan 104.18.14.101. Jika dirubah menjadi alphabet seperti pada soal a1 e5 u21 maka 10(J) 4(D) 18(R) 14(N) 10(J) 1(A) <br />
-Answer: JDRNJA
 
 ### No 7
 ### No 8
