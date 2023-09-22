@@ -16,6 +16,12 @@ Laporan resmi pengerjaan soal praktikum Jarkom Modul 1 Kelompok E29 berupa dokum
 # No 4
 # No 5
 # No 6
+Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+Kode Rahasia : SUBSTITUSI
+![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/f2137d25-4c9d-453c-b2b2-f68d061e54d1)
+Jika dilihat dari IP source maka didapatkan 104.18.14.101. Jika dirubah menjadi alphabet seperti pada soal a1 e5 u21 maka 10(J) 4(D) 18(R) 14(N) 10(J) 1(A)
+Answer: JDRNJA
+
 # No 7
 # No 8
 # No 9
