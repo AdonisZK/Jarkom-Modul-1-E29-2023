@@ -94,14 +94,55 @@ answer: 0x18e5
 ### No 6
 **Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.** <br />
 Kode Rahasia : SUBSTITUSI <br />
-answer: JDRNJA <br />
+#### answer: JDRNJA <br />
 
 **Penyelesaian**
-![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/23a03e41-b7f8-4cfb-b455-ca560b896cd0)
+Jika dilihat dari soal SOURCE ADDRESS 7812 maka kita melihat pada packet 7812
+![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/23a03e41-b7f8-4cfb-b455-ca560b896cd0)  <br />
 
 Jika dilihat dari IP source maka didapatkan 104.18.14.101. Jika dirubah menjadi alphabet seperti pada soal a1 e5 u21 maka 10(J) 4(D) 18(R) 14(N) 10(J) 1(A) <br />
+**Kendala**  <br />
+Soal sedikit membingungkan membuat solver mengira bahwa answernya adalah SUBSTIUSI yang diubah menjadi numeric <br />
 
 ### No 7
+**Berapa jumlah packet yang menuju IP 184.87.193.88?** <br />
+#### answer: 6 <br />
+
+**Penyelesaian**  <br />
+Melakukan filter ip.addr 184.87.193.88 lalu menghitung packet yang memiliki destination 184.87.193.88
+Menghitung packet yang menuju IP 184.87.193.88 ada 6 <br />
+![image](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/48209612/6c6905cf-59a9-4895-a892-b70eab360f8e) <br />
+filter:  ip.addr == 184.87.193.88  <br />
+
 ### No 8
+**Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)**
+#### answer: tcp.port == 80 || udp.port == 80  <br />
+
+**Penyelesaian**  <br />
+Mengecek port melalui 2 jenis protocol yaitu tcp dan udp  <br />
+![](https://lh6.googleusercontent.com/-tfUOH6vfAtgQj13UUP5aTflWd4KMREWiRAqWlOBgc698pMb0ttWcnd_Vj1y8aQ6vsxkwIgJHAXyh1Gi8YOgO4xjHFufxaldNlKc7-EUC8zR6gwyx5rp111TeH_BuftnOr1PLIy5shlqHpK0NAuGrqw)
+Filter dan answer sama  <br />
+
+Ref: https://osqa-ask.wireshark.org/questions/50586/capture-tcp-and-udp-packets-on-port-80/  <br />
+
 ### No 9
+**Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!**
+#### answer: ip.src == 10.51.40.1 && ip.dst != 10.39.55.34  <br />
+
+**Penyelesaian**  <br />
+Melakukan filter dengan ip.src == (berasal) dan ip.dst != (tidak menuju)  <br />
+![image](https://lh4.googleusercontent.com/Zq3AzXT32zd-Vu9pa0VCHUZ6HFG36cvTdlFyWZSdW1bNmoBtbeJMVgnRSdKlQ1KSVgEKTmEerkV5bjU2AEudpxiNP5usSQvJbO425FcZEF5veEvlGsu3TrlmyCYYIqyzscZQ2vDBMlSq2W6pV7FZNt4)
+Filter dan answer sama  <br />
+
+**Kendala**  <br />
+Banyak variasi yang dapat dilakukan untuk mengfilter seperti jawaban (contoh: ip.src == 10.51.40.1 and ip.dst != 10.39.55.34, ip.src eq 10.51.40.1 and !ip.dst == 10.39.55.34) dan pada saat awal praktikum jawaban tidak bisa walaupun sudah benar  <br />
+
 ### No 10
+**Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet**  <br />
+#### answer: dhafin:kesayangannyak0k0  <br />
+
+**Penyelesaian**  <br />
+Dengan melakukan filter telnet pada packet 236 maka akan terlihat huruf per huruf untuk username dan password pada packet terakhir 262 atau bisa melakukan follow tcp stream
+Filter: telnet <br />
+[](https://lh5.googleusercontent.com/zdJODhF-AKmz75X1MROZU1WBXMThSJUAf9qyPsHH8ttm6W-jz4jG2HZyM99EtQCoRTMzo0Hjt5n12FQ87Z-TyGBWm5OJEYP7D03StVN3yC7deiRO8zqIpR3n-m5ar62wNteDMoehwbjcprJbN15z1C0)
+
