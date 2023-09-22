@@ -99,11 +99,25 @@ answer: 25
 + c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 answer: 74.53.140.153
 
+![5 6](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/59a34054-b906-4f6a-9f4b-572546126a0e)
+
 **Penyelesaian**
 - Melakukan filter smtp dan mencari paket yang mengandung password agar dapat membuka file zip.
+
+![5 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/3e9f1988-e8f9-4284-9b73-c1bb3ed7075d)
+  
 - Lalu, decode password menggunakan base64 converter.
+
+![5 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/2466c8e2-1609-4b4b-bdc9-d2788440a458)
+
 - Kemudian, buka file zip untuk mendapatkan instance soal.
+
+![5 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/4584093e-900f-4381-b5b9-ae7430476a23)
 - Dengan begitu, soal yang ada dapat dikerjakan. Jumlah paketnya 60, port pada server yang digunakan untuk service SMTP adalah 25, dan public IP dari semua alamat IP yang tercapture adalah 74.53.140.153.
+
+![5 4](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/616394d6-65b9-4605-b449-8f147b7cd113)
+
+![5 5](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/9ba95af0-a830-4a4f-a2e7-4dafe5f9c348)
 
 ### No 6
 **Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.** <br />
