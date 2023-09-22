@@ -79,8 +79,17 @@ answer: UDP <br />
 
 ![3 3](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/c128d096-df23-472b-a2f4-af2b521d0899)
   
-
 ### No 4
+**Berapa nilai checksum yang didapat dari header pada paket nomor 130?**
+answer: 0x18e5
+
+![4 2](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/1262ec2d-399e-405c-aa9f-8716bfff15d2)
+
+**Penyelesaian**
+- Mencari paket nomor 130, kemudian melihat pada bagian User Datagram Protocol. Dapat ditemukan nilai checksum yaitu 0x18e5
+
+![4 1](https://github.com/AdonisZK/Jarkom-Modul-1-E29-2023/assets/90591077/80a30b02-041f-4346-99bc-3eba113a7289)
+
 ### No 5
 ### No 6
 **Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.** <br />
